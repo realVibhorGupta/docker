@@ -1,0 +1,1 @@
+This project was realized as part of my article "A beginner's guide to Docker - how to create your first Docker application". This project is an example of a first application with Docker.
