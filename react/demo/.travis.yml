@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker 
+
+before_install: 
+  - docker build  -t imvibhorg/demo:version1.0 -f Dockerfile.dev .
+
+script:
+  - docker run imvibhorg/demo:version1.0 npm run test -- --coverage
